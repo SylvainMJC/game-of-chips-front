@@ -2,7 +2,7 @@ import Combo from '../Combo.js'
 
 class Flush extends Combo {
 
-  name(){
+  static name(){
     return "Flush";
   }
 

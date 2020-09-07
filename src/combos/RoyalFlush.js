@@ -7,7 +7,7 @@ class RoyalFlush extends Combo {
 
     return (JSON.stringify(values) === JSON.stringify(["A", "K", "Q", "J", "10"])) && (types.length === 1)
   }
-  name(){
+  static name(){
     return "RoyalFlush";
   }
 }
