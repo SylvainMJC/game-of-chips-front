@@ -13,3 +13,5 @@ let data = {
       "RoyalFlush": "Quinte Flush Royale"
     }
 }
+
+export {data};
