@@ -1,10 +1,11 @@
 const { resolve } = require('path');
 
 module.exports = {
-  entry: resolve('./loader.js'),
+  entry: resolve('./GameOfChips.js'),
   mode: 'development',
+  watch: true,
   output: {
-    filename: 'loader.min.js',
-    path: resolve('./'),
+    filename: 'bundle.min.js',
+    path: resolve('./dist/'),
   },
 }
