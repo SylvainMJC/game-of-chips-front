@@ -19,7 +19,7 @@ class Straight extends Combo {
 
     return straights
   }
-  static name(){
+  name(){
     return "Straight";
   }
 

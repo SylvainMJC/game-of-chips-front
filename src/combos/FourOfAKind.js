@@ -6,7 +6,7 @@ class FourOfAKind extends Combo {
 
     return Object.values(occureds).map(o => o.length).includes(4)
   }
-  static name(){
+  name(){
     return "FourOfAKind";
   }
 }

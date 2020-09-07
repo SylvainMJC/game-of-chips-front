@@ -7,7 +7,7 @@ class TwoPairs extends Combo {
 
     return nbVals.includes(2) && (nbVals.indexOf(2) !== nbVals.lastIndexOf(2))
   } 
-  static name(){
+  name(){
     return "TwoPairs";
   }
 }

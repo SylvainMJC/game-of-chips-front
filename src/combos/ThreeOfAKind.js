@@ -7,7 +7,7 @@ class ThreeOfAKind extends Combo {
 
     return nbVals.includes(3)
   }
-  static name(){
+  name(){
     return "ThreeOfAKind";
   }
 }
