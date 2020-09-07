@@ -7,6 +7,9 @@ class StraightFlush extends Combo {
   static isAvailable(cards) {
     return Straight.isAvailable(cards) && Flush.isAvailable(cards)
   }
+  name(){
+    return "StraightFlush";
+  }
 }
 
 export default StraightFlush;

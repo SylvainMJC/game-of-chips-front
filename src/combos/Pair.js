@@ -7,6 +7,9 @@ class Pair extends Combo {
 
     return nbVals.includes(2)
   }
+  name(){
+    return "Pair";
+  }
 }
 
 export default Pair;
