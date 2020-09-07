@@ -1,3 +1,6 @@
+import HighCard from './combos/HighCard.js';
+
+
 const COMBOS = [
   {name: "RoyalFlush", class:RoyalFlush },
   {name: "StraightFlush", class: StraightFlush},
