@@ -1,4 +1,14 @@
 import HighCard from './combos/HighCard.js';
+import RoyalFlush from './combos/RoyalFlush.js';
+import FourOfAKind from './combos/FourOfAKind.js';
+import FullHouse from './combos/FullHouse.js';
+import Flush from './combos/Flush.js';
+import TwoPairs from './combos/TwoPairs.js';
+import Straight from './combos/Straight.js';
+import ThreeOfAKind from './combos/ThreeOfAKind.js';
+import Pair from './combos/Pair.js';
+
+import Deck from './Deck.js';
 
 
 const COMBOS = [
