@@ -7,7 +7,7 @@ class Pair extends Combo {
 
     return nbVals.includes(2)
   }
-  name(){
+  getname(){
     return "Pair";
   }
 }

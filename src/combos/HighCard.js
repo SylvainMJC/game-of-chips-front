@@ -5,7 +5,7 @@ class HighCard extends Combo {
   static isAvailable(cards) {
     return true
   }
-  name(){
+  getname(){
     return "HighCard";
   }
 }
