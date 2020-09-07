@@ -1,4 +1,5 @@
 import Combo from '../Combo.js'
+import Card from '../Card.js'
 
 class Straight extends Combo {
   static isAvailable(cards) {
