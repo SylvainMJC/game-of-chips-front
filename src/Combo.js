@@ -96,7 +96,7 @@ class Combo {
   }
 
   name() {
-    return data.combos[this.name()]
+    return data.combos[this.getname()]
   }
 }
 
