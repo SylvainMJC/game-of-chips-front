@@ -2,7 +2,7 @@ const { resolve } = require('path');
 
 module.exports = {
   entry: resolve('./GameOfChips.js'),
-  mode: 'production',
+  mode: 'development',
   watch: true,
   output: {
     filename: 'bundle.min.js',
