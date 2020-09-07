@@ -13,7 +13,6 @@ import Combo from './Combo.js';
 
 import Deck from './Deck.js';
 
-import {data} from '../fr.js';
 
 const COMBOS = [
   {name: "RoyalFlush", class:RoyalFlush },

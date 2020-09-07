@@ -1,4 +1,5 @@
 import Card from './Card.js';
+import {data} from '../fr.js';
 
 class Combo {
   static factory(cards, combos) {
